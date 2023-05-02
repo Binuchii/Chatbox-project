@@ -4,7 +4,7 @@ This basic server will run on port 3001, accepts calls from any origin, and has 
 
 This endpoint takes a username from the request body, and retuns a fake User object.
 
-Chatengine is the API used, it produces the product id and private key
+Chat Engine is the API used, it produces the product id and private key
 */
 const express = require("express");
 const cors = require("cors");
